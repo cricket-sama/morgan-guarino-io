@@ -164,6 +164,7 @@ h2 {
 
 /* Skills */
 #skills ul {
+    text-align: left;
     list-style-type: none;
     margin-bottom: 0;
     padding: 1rem;
@@ -171,7 +172,7 @@ h2 {
 }
 
 #skills li {
-    margin: 0.5rem;
+    margin: 1rem;
 }
 
 /* Projects */
@@ -301,7 +302,7 @@ footer {
         flex-direction: row;
         justify-content: space-around;
         flex: 1;
-        max-width: 75%;
+        max-width: 100%;
     }
 }
 
@@ -319,6 +320,9 @@ footer {
 @media (min-width: 1200px) {
     body {
         background-color: var(--color-pink);
+    }
+    html {
+        scroll-padding-top: 4em;
     }
     .about-desc, .experience-list, #skills, #projects, #leave-message, #messages {
         max-width: 40%;

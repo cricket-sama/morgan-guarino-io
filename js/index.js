@@ -13,7 +13,13 @@ copyright.innerHTML = `<b><i>Morgan Guarino</i></b> &copy ${thisYear}`
 footer.appendChild(copyright);
 
 //Add skills to skills section
-const skills = ['JavaScript', 'HTML', 'CSS', 'GitHub'];
+const skills = [
+    'Languages: JavaScript, HTML, CSS',
+    'Libraries and Frameworks: React, Vite, Tailwind CSS',
+    'Project Management Tools: GitHub, Jira',
+    'Areas of Knowledge: Frontend Development, Design, Debugging',
+    'Soft Skills: Communication, Empathy, Teamwork, Adaptability'
+];
 
 const skillsSection = document.querySelector('#skills');
 const skillsList = skillsSection.querySelector('ul');
